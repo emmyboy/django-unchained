@@ -5,7 +5,7 @@ My very first web application project with Python, Django
 
 ## Setup Instructions
 
-Clone the repo: `https://github.com/softage0/django-unchained.git`
+Clone the repo: `https://github.com/emmyboy/django-unchained.git`
 
 Run the following code on the cloned repo:
 ```
