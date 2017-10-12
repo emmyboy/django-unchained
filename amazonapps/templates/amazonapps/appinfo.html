@@ -1,0 +1,10 @@
+<title>{{ appName }} Info</title>
+<h3>App Name: </h3> {{ appName }} <br>
+<h3>App Version: </h3> {{ appVersion }} <br>
+<h3>Changelog: </h3>
+<ul>
+{% for log in changelog %}
+    <li>{{ log }}</li>
+{% endfor %}
+</ul>
+<h3>Release Date: </h3> {{ release }} <br>

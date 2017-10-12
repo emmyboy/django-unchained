@@ -1,0 +1,7 @@
+<title>Emeka's Python Coding exercise</title>
+<form action="{% url 'appinfo' %}" method="POST">
+{% csrf_token %}
+<h2>Post the Amazon app URL here:</h2><br>
+<input type="text" name="amazonappurl" maxlength="200" required><br><br>
+<input type="submit" value="Submit">
+</form>
